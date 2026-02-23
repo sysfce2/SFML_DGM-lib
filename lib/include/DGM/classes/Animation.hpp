@@ -75,7 +75,6 @@ namespace dgm
 
         [[nodiscard]] bool hasClipFinishedPlaying() const noexcept
         {
-            static_assert(LEGACY_ANIMATION);
 #ifdef LEGACY_ANIMATION
             return currentFrameIndex >= currentState->second.getFrameCount();
 #else
