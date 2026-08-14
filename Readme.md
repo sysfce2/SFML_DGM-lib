@@ -1,8 +1,27 @@
-[![Windows-MSVC-CI](https://github.com/nerudaj/dgm-lib/actions/workflows/main.yml/badge.svg)](https://github.com/nerudaj/dgm-lib/actions/workflows/main.yml) [![Windows-Clang-Ninja-CI](https://github.com/nerudaj/dgm-lib/actions/workflows/main-clang.yml/badge.svg)](https://github.com/nerudaj/dgm-lib/actions/workflows/main-clang.yml) [![CI-Ubuntu-Ninja-Clang](https://github.com/nerudaj/dgm-lib/actions/workflows/main-clang-ubuntu.yml/badge.svg)](https://github.com/nerudaj/dgm-lib/actions/workflows/main-clang-ubuntu.yml)[![Android-CI](https://github.com/nerudaj/dgm-lib/actions/workflows/android.yml/badge.svg?branch=main)](https://github.com/nerudaj/dgm-lib/actions/workflows/android.yml) [![IntegrationTests](https://github.com/nerudaj/dgm-lib/actions/workflows/integration.yml/badge.svg)](https://github.com/nerudaj/dgm-lib/actions/workflows/integration.yml) 
+[![Windows-MSVC-CI](https://github.com/nerudaj/dgm-lib/actions/workflows/main.yml/badge.svg)](https://github.com/nerudaj/dgm-lib/actions/workflows/main.yml) 
+[![Windows-Clang-Ninja-CI](https://github.com/nerudaj/dgm-lib/actions/workflows/main-clang.yml/badge.svg)](https://github.com/nerudaj/dgm-lib/actions/workflows/main-clang.yml) 
+[![CI-Ubuntu-Ninja-Clang](https://github.com/nerudaj/dgm-lib/actions/workflows/main-clang-ubuntu.yml/badge.svg)](https://github.com/nerudaj/dgm-lib/actions/workflows/main-clang-ubuntu.yml)
+[![Android-CI](https://github.com/nerudaj/dgm-lib/actions/workflows/android.yml/badge.svg?branch=main)](https://github.com/nerudaj/dgm-lib/actions/workflows/android.yml) 
+[![IntegrationTests](https://github.com/nerudaj/dgm-lib/actions/workflows/integration.yml/badge.svg)](https://github.com/nerudaj/dgm-lib/actions/workflows/integration.yml) 
 
-# Readme
+# dgm-lib
 
 This project is an extension library for [SFML](http://sfml-dev.org). The library provides primitives for collision computations, vector manipulations, animations, particle system and convenience wrappers for main render window and camera manipulation. The library is fully compatible with Visual Studio 2022 and Clang for Android (shipped with Android Studio).
+
+## AI Contribution Policy
+
+AI-generated contributions are prohibited, because other OSS projects could lose their collective minds if they ever wanted to depend on this project.
+
+## Table of contents
+
+ * [Requirements](#requirements)
+ * [How to build](#how-to-build)
+ * [Integration](#integration)
+ * [Development](#development)
+ * [Documentation](#documentation)
+ * [Dependencies](#dependencies)
+ * [Versioning](#versioning)
+ * [Who's using dgm-lib?](#whos-using-dgm-lib)
 
 ## Requirements
 
@@ -80,3 +99,8 @@ These are fetched automatically through CMake FetchContent.
 
 This library is trying its best to follow the semantic versioning.
 
+## Who's using dgm-lib?
+
+ * [Rend](https://nerudaj.itch.io/Rend) - Retro arena FPS
+ * [MagRider](https://nerudaj.itch.io/MagRider) - Magnetic platformer
+ * [Mansion Malevolence](https://nerudaj.itch.io/MansionMalevolence) - Resident Evil demaked into a solitaire card game
